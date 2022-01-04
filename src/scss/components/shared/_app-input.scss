@@ -1,0 +1,18 @@
+.app-input {
+  &__wrapper {
+  }
+  &__label {
+    display: block;
+  }
+  &__input {
+    width: 100%;
+    border: 1px solid $color-gray;
+    border-radius: $border-radius-xs;
+    padding: $space-md;
+    margin-bottom: $space-xl;
+
+    &:focus {
+      outline: 2px solid rgb(96, 204, 253);
+    }
+  }
+}

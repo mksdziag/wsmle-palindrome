@@ -1,0 +1,12 @@
+.app-columns {
+  &__column {
+    float: left;
+    width: 100%;
+    margin-bottom: $space-lg;
+
+    @media screen and (min-width: 980px) {
+      width: 50%;
+      padding: 0 $space-xxl;
+    }
+  }
+}

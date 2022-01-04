@@ -1,0 +1,27 @@
+.validation-message {
+  padding: $space-xs 0;
+
+  &__status {
+    display: inline-block;
+    padding: $space-sm $space-md;
+    color: $color-gray;
+    background-color: transparent;
+    border: 1px solid $color-gray;
+    border-radius: $border-radius-sm;
+    line-height: 1;
+    font-weight: 700;
+    transition: color 250ms, background-color 250ms, border 250ms;
+
+    &--success {
+      color: white;
+      background-color: $color-success;
+      border-color: $color-success;
+    }
+
+    &--error {
+      color: white;
+      background-color: $color-error;
+      border-color: $color-error;
+    }
+  }
+}

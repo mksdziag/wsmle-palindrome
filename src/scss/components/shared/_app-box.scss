@@ -1,0 +1,9 @@
+.app-box {
+  border: 1px solid $color-gray;
+  border-radius: $border-radius-xs;
+  padding: $space-md;
+
+  &--no-space {
+    padding: 0;
+  }
+}
