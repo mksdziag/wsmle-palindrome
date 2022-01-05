@@ -20,6 +20,11 @@ import ValidationMessage from "./ValidationMessage.vue";
 import checkPalindrome from "../../helpers/is-palindrome"
 
 export default {
+  components: {
+    AppInput,
+    AppBox,
+    ValidationMessage,
+  },
   data() {
     return {
       text: "",
@@ -39,6 +44,5 @@ export default {
       this.text = "";
     },
   },
-  components: { AppInput, ValidationMessage, AppBox }
 }
 </script>

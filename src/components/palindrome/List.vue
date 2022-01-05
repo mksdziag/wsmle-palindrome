@@ -16,7 +16,9 @@
 import AppBox from "../shared/AppBox.vue"
 export default {
   name: "PalindromeList",
-  components: { AppBox },
+  components: {
+    AppBox
+  },
   props: {
     items: {
       type: Array,
