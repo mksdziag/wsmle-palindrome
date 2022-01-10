@@ -1,4 +1,4 @@
-# wsmle-palindrome
+# Workxxxle task implementation
 
 ## How to use
 
